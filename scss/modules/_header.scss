@@ -1,0 +1,52 @@
+.main-header {
+	height: 100px;
+	background: linear-gradient(80deg, $red , $purple); 
+
+
+	.logo {
+		max-width: 90px;
+		padding: 15px 0;
+		float: left;
+
+		img {
+			width: 100%;
+		}
+	}
+
+	.main-nav {
+		float: right;
+
+		.main-menu {
+			padding: 26px 0;
+			list-style-type: none;
+
+			li {
+				float: left;
+				text-align: center;
+				margin-left: 10px;
+
+				a {
+					color: white;
+					padding: 30px;
+					text-decoration: none;
+					transition: all .3s ease-in-out;
+					text-transform: capitalize;
+					&:hover, &.selected {
+						color: black;
+						border-radius: 5px;
+						background-color: white;
+					}
+				}
+
+				&:last-child a {
+					border-radius: 5px;
+					background-color: rgba(0,0,0,0.3);
+					text-decoration: underline;
+					&:hover {
+						color: white;
+					}
+				}
+			}
+		}
+	}
+}

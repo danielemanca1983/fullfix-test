@@ -1,0 +1,25 @@
+@mixin at-least($device-width) {
+  @media screen and (min-width: $device-width) {
+    @content 
+  }
+}
+
+@mixin until($device-width) {
+  @media screen and (max-width: $device-width - 1) {
+    @content 
+  }
+}
+
+@mixin between($device-width-1, $device-width-2) {
+  @media screen and (min-width: $device-width-1) and (max-width: $device-width-2 - 1) {
+    @content 
+  }
+}
+
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}

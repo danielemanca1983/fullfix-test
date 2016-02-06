@@ -1,0 +1,24 @@
+{
+  "slides": [
+    {
+      "title": "Welcome",
+      "image": "http://placehold.it/800x400",
+      "url": "/index.htm"
+    },
+    {
+      "title": "About us &amp; our team",
+      "image": "http://placehold.it/800x400",
+      "url": "/about.htm"
+    },
+    {
+      "title": "Our \"products\"",
+      "image": "http://placehold.it/800x400",
+      "url": "/products.htm"
+    },
+    {
+      "title": "Get in touch",
+      "image": "http://placehold.it/800x400",
+      "url": "/contact.htm"
+    }
+  ]
+}

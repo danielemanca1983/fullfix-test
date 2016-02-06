@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="250" viewBox="0 0 300 250">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 200px;
+        fill: #fff;
+        font-family: Noteworthy;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <text id="L" class="cls-1" x="0.117" y="181.109">L</text>
+  <text id="o" class="cls-1" x="66.117" y="181.109">o</text>
+  <text id="g" class="cls-1" x="133.117" y="181.109">g</text>
+  <text id="o_copy" data-name="o copy" class="cls-1" x="198.117" y="181.109">o</text>
+</svg>
