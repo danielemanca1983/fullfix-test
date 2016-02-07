@@ -41,7 +41,7 @@ body {
  * and Firefox.
  * Correct `block` display not defined for `main` in IE 11.
  */
-/* line 62, ../scss/vendor/_normalize.scss */
+/* line 50, ../scss/vendor/_normalize.scss */
 article,
 aside,
 details,
@@ -62,7 +62,7 @@ summary {
  * 1. Correct `inline-block` display not defined in IE 6/7/8/9 and Firefox 3.
  * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
  */
-/* line 74, ../scss/vendor/_normalize.scss */
+/* line 71, ../scss/vendor/_normalize.scss */
 audio,
 canvas,
 progress,
@@ -87,7 +87,7 @@ audio:not([controls]) {
  * Address `[hidden]` styling not present in IE 8/9/10.
  * Hide the `template` element in IE 8/9/10/11, Safari, and Firefox < 22.
  */
-/* line 99, ../scss/vendor/_normalize.scss */
+/* line 98, ../scss/vendor/_normalize.scss */
 [hidden],
 template {
   display: none;
@@ -125,7 +125,7 @@ abbr[title] {
 /**
  * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
  */
-/* line 141, ../scss/vendor/_normalize.scss */
+/* line 140, ../scss/vendor/_normalize.scss */
 b,
 strong {
   font-weight: bold;
@@ -169,7 +169,7 @@ small {
 /**
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
  */
-/* line 248, ../scss/vendor/_normalize.scss */
+/* line 247, ../scss/vendor/_normalize.scss */
 sub,
 sup {
   font-size: 75%;
@@ -238,7 +238,7 @@ pre {
  * Address odd `em`-unit font size rendering in all browsers.
  * Correct font family set oddly in IE 6, Safari 4/5, and Chrome.
  */
-/* line 365, ../scss/vendor/_normalize.scss */
+/* line 362, ../scss/vendor/_normalize.scss */
 code,
 kbd,
 pre,
@@ -260,7 +260,7 @@ samp {
  * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
  * 4. Improves appearance and consistency in all browsers.
  */
-/* line 393, ../scss/vendor/_normalize.scss */
+/* line 389, ../scss/vendor/_normalize.scss */
 button,
 input,
 optgroup,
@@ -288,7 +288,7 @@ button {
  * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
  * Correct `select` style inheritance in Firefox.
  */
-/* line 419, ../scss/vendor/_normalize.scss */
+/* line 418, ../scss/vendor/_normalize.scss */
 button,
 select {
   text-transform: none;
@@ -303,7 +303,7 @@ select {
  * 4. Removes inner spacing in IE 7 without affecting normal text inputs.
  *  Known issue: inner spacing remains in IE 6.
  */
-/* line 436, ../scss/vendor/_normalize.scss */
+/* line 433, ../scss/vendor/_normalize.scss */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -317,7 +317,7 @@ input[type="submit"] {
 /**
  * Re-set default cursor for disabled elements.
  */
-/* line 449, ../scss/vendor/_normalize.scss */
+/* line 448, ../scss/vendor/_normalize.scss */
 button[disabled],
 html input[disabled] {
   cursor: default;
@@ -326,7 +326,7 @@ html input[disabled] {
 /**
  * Remove inner padding and border in Firefox 4+.
  */
-/* line 458, ../scss/vendor/_normalize.scss */
+/* line 457, ../scss/vendor/_normalize.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -347,7 +347,7 @@ input {
  * 2. Remove excess padding in IE 8/9/10.
  *  Known issue: excess padding remains in IE 6.
  */
-/* line 479, ../scss/vendor/_normalize.scss */
+/* line 478, ../scss/vendor/_normalize.scss */
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
@@ -361,7 +361,7 @@ input[type="radio"] {
  * `font-size` values of the `input`, it causes the cursor style of the
  * decrement button to change from `default` to `text`.
  */
-/* line 495, ../scss/vendor/_normalize.scss */
+/* line 494, ../scss/vendor/_normalize.scss */
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
   height: auto;
@@ -384,7 +384,7 @@ input[type="search"] {
  * Safari (but not Chrome) clips the cancel button when the search input has
  * padding (and `textfield` appearance).
  */
-/* line 516, ../scss/vendor/_normalize.scss */
+/* line 515, ../scss/vendor/_normalize.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
@@ -442,13 +442,13 @@ table {
   border-spacing: 0;
 }
 
-/* line 576, ../scss/vendor/_normalize.scss */
+/* line 575, ../scss/vendor/_normalize.scss */
 td,
 th {
   padding: 0;
 }
 
-/* Flickity v1.1.1
+/*! Flickity v1.1.1
 http://flickity.metafizzy.co
 ---------------------------------------------- */
 /* line 5, ../scss/vendor/_flickity.scss */
@@ -629,6 +629,7 @@ http://flickity.metafizzy.co
 /* line 1, ../scss/modules/_header.scss */
 .main-header {
   height: 100px;
+  background: -webkit-linear-gradient(10deg, #f53a13, #d91776);
   background: linear-gradient(80deg, #f53a13, #d91776);
 }
 /* line 6, ../scss/modules/_header.scss */
@@ -654,14 +655,15 @@ http://flickity.metafizzy.co
 .main-header .main-nav .main-menu li {
   float: left;
   text-align: center;
-  margin-left: 10px;
+  margin-left: 5px;
 }
 /* line 28, ../scss/modules/_header.scss */
 .main-header .main-nav .main-menu li a {
   color: white;
-  padding: 30px;
+  padding: 17px 30px;
   text-decoration: none;
-  transition: all .3s ease-in-out;
+  -webkit-transition: all .3s ease-in-out;
+          transition: all .3s ease-in-out;
   text-transform: capitalize;
 }
 /* line 34, ../scss/modules/_header.scss */
@@ -683,7 +685,7 @@ http://flickity.metafizzy.co
 
 /* line 1, ../scss/modules/_slideshow.scss */
 .main-content {
-  min-height: 760px;
+  min-height: 750px;
   background-color: #e9e9e9;
 }
 /* line 20, ../scss/partials/_mixins.scss */
@@ -696,7 +698,7 @@ http://flickity.metafizzy.co
 .main-content .home-slider {
   width: 100%;
   height: 500px;
-  margin: 145px 0;
+  margin: 100px 0;
   position: relative;
 }
 /* line 12, ../scss/modules/_slideshow.scss */
@@ -735,13 +737,19 @@ http://flickity.metafizzy.co
 .main-content .home-slider .flickity-page-dots .dot {
   width: 15px;
   height: 15px;
-  border: 1px solid black;
+  border: 2px solid #333333;
   background-color: transparent;
+  -webkit-transition: border-color .3s ease-in-out;
+          transition: border-color .3s ease-in-out;
 }
-/* line 48, ../scss/modules/_slideshow.scss */
+/* line 49, ../scss/modules/_slideshow.scss */
+.main-content .home-slider .flickity-page-dots .dot:hover {
+  border-color: #d91776;
+}
+/* line 53, ../scss/modules/_slideshow.scss */
 .main-content .home-slider .flickity-page-dots .dot.is-selected {
-  width: 15px;
-  height: 15px;
+  width: 19px;
+  height: 19px;
   border: none;
   background-color: #cccccc;
 }
@@ -750,23 +758,27 @@ http://flickity.metafizzy.co
 .main-footer {
   color: white;
   height: 350px;
-  padding-top: 55px;
-  flex-direction: row;
+  padding-top: 30px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   background-color: #333333;
 }
 /* line 8, ../scss/modules/_footer.scss */
 .main-footer .column {
-  width: 45%;
+  width: 47.5%;
   float: left;
-  line-height: 1.75;
+  line-height: 1.7;
 }
 /* line 13, ../scss/modules/_footer.scss */
 .main-footer .column:first-child {
-  margin-right: 5%;
+  margin-right: 2.5%;
 }
 /* line 17, ../scss/modules/_footer.scss */
 .main-footer .column:last-child {
-  margin-left: 5%;
+  margin-left: 2.5%;
 }
 
 /* line 11, ../scss/style.scss */
@@ -777,10 +789,17 @@ html {
 /* line 15, ../scss/style.scss */
 body {
   width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   margin: 0 auto;
   max-width: 1000px;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   font-family: "Helvetica", sans-serif;
 }
 
@@ -788,3 +807,11 @@ body {
 .center {
   padding: 0 100px;
 }
+@media screen and (min-width: 320px) and (max-width: 1199px) {
+  /* line 24, ../scss/style.scss */
+  .center {
+    padding: 0;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

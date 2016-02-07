@@ -23,4 +23,8 @@ body {
 
 .center {
 	padding: 0 100px;
+
+	@include between($mobile, $desktop) {
+		padding: 0;
+	}
 }

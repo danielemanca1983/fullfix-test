@@ -1,0 +1,15 @@
+{
+  "name": "fullfix-test",
+  "version": "0.1.0",
+  "devDependencies": {
+    "grunt": "latest",
+    "grunt-autoprefixer": "latest",
+    "grunt-contrib-sass": "latest",
+    "grunt-contrib-connect": "latest",
+    "grunt-contrib-uglify": "latest",
+    "grunt-contrib-watch": "latest",
+    "grunt-contrib-imagemin": "latest",
+    "time-grunt" : "latest",
+    "jit-grunt": "latest"
+  }
+}
