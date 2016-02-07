@@ -723,17 +723,22 @@ http://flickity.metafizzy.co
   position: absolute;
   background-color: white;
 }
-/* line 31, ../scss/modules/_slideshow.scss */
-.main-content .home-slider .slide .title h2 {
+/* line 32, ../scss/modules/_slideshow.scss */
+.main-content .home-slider .slide .title .slide-url {
+  color: #333333;
+  text-decoration: none;
+}
+/* line 35, ../scss/modules/_slideshow.scss */
+.main-content .home-slider .slide .title .slide-url .slide-title {
   font-size: 30px;
   font-weight: 400;
   padding: 10px 55px;
 }
-/* line 39, ../scss/modules/_slideshow.scss */
+/* line 44, ../scss/modules/_slideshow.scss */
 .main-content .home-slider .flickity-page-dots {
   bottom: -40px;
 }
-/* line 42, ../scss/modules/_slideshow.scss */
+/* line 47, ../scss/modules/_slideshow.scss */
 .main-content .home-slider .flickity-page-dots .dot {
   width: 15px;
   height: 15px;
@@ -742,11 +747,11 @@ http://flickity.metafizzy.co
   -webkit-transition: border-color .3s ease-in-out;
           transition: border-color .3s ease-in-out;
 }
-/* line 49, ../scss/modules/_slideshow.scss */
+/* line 54, ../scss/modules/_slideshow.scss */
 .main-content .home-slider .flickity-page-dots .dot:hover {
   border-color: #d91776;
 }
-/* line 53, ../scss/modules/_slideshow.scss */
+/* line 58, ../scss/modules/_slideshow.scss */
 .main-content .home-slider .flickity-page-dots .dot.is-selected {
   width: 19px;
   height: 19px;

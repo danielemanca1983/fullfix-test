@@ -28,11 +28,16 @@
 	        	height: 100px;
 	        	position: absolute;
 	        	background-color: white;
-	        	h2 {	        		
-	        		font-size: 30px;
-	        		font-weight: 400;
-	        		padding: 10px 55px;
-	        	}	        	
+	        	
+	        	.slide-url {
+	        		color: $dark-grey;
+	        		text-decoration: none;
+	        		.slide-title {	        		
+		        		font-size: 30px;
+		        		font-weight: 400;
+		        		padding: 10px 55px;
+		        	}	 
+	        	}       	
 	        }
 	    }
 
